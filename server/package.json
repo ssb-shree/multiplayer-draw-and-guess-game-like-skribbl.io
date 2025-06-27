@@ -1,0 +1,39 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "backend for an turn based multiplayer draw and guess game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --build",
+    "dev": "nodemon ./src/index.ts",
+    "start": "node ./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssb-shree/multiplayer-draw-and-guess-game-like-skribbl.io.git"
+  },
+  "keywords": [
+    "backend",
+    "node",
+    "multiplayer",
+    "realtime",
+    "socket",
+    "express",
+    "game"
+  ],
+  "author": "Shree B",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ssb-shree/multiplayer-draw-and-guess-game-like-skribbl.io/issues"
+  },
+  "homepage": "https://github.com/ssb-shree/multiplayer-draw-and-guess-game-like-skribbl.io#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.3",
+    "express": "^5.1.0"
+  }
+}
