@@ -1,7 +1,7 @@
-import app from "./app";
-
+import { server } from "./socket";
+import "./socket";
 const startServer = () => {
-  app.listen(8080, () => console.log("server started"));
+  server.listen(8080, () => console.log("server started"));
 };
 
 startServer();
